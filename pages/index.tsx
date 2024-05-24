@@ -229,7 +229,7 @@ export default function Home() {
         </Modal>
         <Modal
           id="my_modal_3"
-          title={`Add New Todo to ${activeList?.list_name}`}
+          title='Add New Tod'
           onSubmit={handleSubmitTodo(onSubmitTodo)}
         >
           <Input
